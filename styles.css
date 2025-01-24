@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x500') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #008c9e;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    background-color: #f4f4f9;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background-color: #f4f4f9;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.model-item>img{
+    width: 30%;
+    border-radius: 20%;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
